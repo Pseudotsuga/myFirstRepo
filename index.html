@@ -11,12 +11,13 @@
     var eggColor = window.prompt('What\'s your favorite color of egg?', 'Please type here:');
     var transport = window.prompt('How do you like to travel?','Perhaps on a boat or train?');
     var dinnerCompany = window.prompt('What was your favorite animal growing up?');
-    // I don't need the dot operator or "window" here, but I'm leaving them in for now to remind me of just how the prompt documentation looks
+    // I don't need the dot operator or "window" here, but I'm leaving them in for now to remind me of how the prompt documentation looks
 
-    console.log(`The first response was ${firstName}.`);
-    console.log(`The second response was ${eggColor}.`);
-    console.log(`The third response was ${transport}.`);
-    console.log(`The fourth response was ${dinnerCompany}.`);
+    window.alert('Hi ' + firstName + '! Do you like ' + eggColor + ' eggs on a ' + transport + ' with a ' + dinnerCompany + '?');
+    console.log(`The first response (name) was ${firstName}.`);
+    console.log(`The second response (egg color) was ${eggColor}.`);
+    console.log(`The third response (transportation) was ${transport}.`);
+    console.log(`The fourth response (favorite animal) was ${dinnerCompany}.`);
 
     </script>
 </html>
